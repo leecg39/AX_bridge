@@ -12,7 +12,7 @@ AX 구축, 외부 AI 교육, AI 인프라 장비 공급을 중개하는 업무�
 
 ## 1. 빠른 시작
 
-필요한 환경은 **Node.js 24 이상**과 최신 데스크톱 브라우저입니다. Node 내장 HTTP 서버·SQLite를 사용하며 npm 외부 의존성이 없습니다. 별도의 `npm install`은 필요하지 않습니다.
+필요한 환경은 **Node.js 24 이상**과 최신 데스크톱 브라우저입니다. Node 내장 HTTP 서버·SQLite를 사용하며 일반 서버 실행에는 npm 외부 의존성이 필요하지 않습니다. Agentation 개발 툴바를 사용하려면 아래 개발 의존성을 설치하세요.
 
 1. 소스 ZIP을 자신의 컴퓨터 또는 검토용 VM에 풉니다.
 2. 터미널에서 압축을 푼 폴더로 이동합니다.
@@ -160,3 +160,16 @@ npm test
 ## 8. 디자인 시스템
 
 첨부 design.md를 한국어 AX 서비스에 맞춰 적용했습니다. 사진 중심 서비스 홈, 자체 호스팅 Pretendard 가변 폰트, 공통 색상·간격·버튼 토큰을 제공합니다. 기존 관리자 해시 북마크는 새 운영실 경로로 자동 이동합니다. [디자인 적용 문서](docs/design-results/DESIGN-SYSTEM.ko.md)에서 원문과 변형 규칙, 검증 기록을 확인하세요.
+
+## 9. Agentation 시각 피드백
+
+```sh
+npm ci
+npm run dev
+```
+
+Node.js 24 이상이 필요합니다. 현재 Mac에서는 `PATH="/opt/homebrew/opt/node/bin:$PATH" npm run dev`로 실행할 수 있습니다. 기존 서버와 포트가 같으므로 한 번에 하나만 실행하세요.
+
+개발 모드에서만 모든 HTML 화면 오른쪽 아래에 Agentation이 표시됩니다. 버튼 활성화 → 요소 클릭 → 메모 추가 → Copy로 복사한 내용을 Codex에 붙여넣으면 됩니다. MCP/자동 동기화는 설정하지 않았으며 메모는 브라우저에 저장됩니다. 관리자 해시 경로별로 메모를 구분합니다.
+
+기존 사이트는 기본 JavaScript 앱으로 유지하고 툴바에만 React 18을 사용합니다. 번들은 `.runtime/agentation.js`에 생성되며 Git에 포함되지 않습니다. 일반 `npm start`는 툴바를 주입하지 않고 번들 주소도 404로 차단합니다. `NODE_ENV=development`를 직접 지정할 때는 먼저 `npm run build:agentation`을 실행해야 합니다.

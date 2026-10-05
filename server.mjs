@@ -13,6 +13,7 @@ const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=u
 // not be exposed via a public interface, tunnel, reverse proxy, or shared network.
 export function createApp({ dataDir = process.env.DATA_DIR || resolve(ROOT, 'data') } = {}) {
   const store = openStore(dataDir);
+  const development = process.env.NODE_ENV === 'development';
   const server = http.createServer(async (req, res) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('X-Frame-Options', 'DENY');
@@ -98,6 +99,12 @@ export function createApp({ dataDir = process.env.DATA_DIR || resolve(ROOT, 'dat
         throw new AppError('요청한 API를 찾을 수 없습니다.', 404);
       }
       if (!['GET', 'HEAD'].includes(req.method)) throw new AppError('지원하지 않는 요청 방식입니다.', 405);
+      if (url.pathname === '/__dev/agentation.js') {
+        if (!development) throw new AppError('파일을 찾을 수 없습니다.', 404);
+        const content = await readFile(resolve(ROOT, '.runtime/agentation.js'));
+        res.writeHead(200, { 'Content-Type': MIME['.js'], 'Content-Length': content.length, 'Cache-Control': 'no-store' });
+        return res.end(req.method === 'HEAD' ? undefined : content);
+      }
       let path;
       try { path = decodeURIComponent(url.pathname); } catch { throw new AppError('파일 주소를 확인해 주세요.'); }
       if (path.includes('\0') || path.includes('\\') || path.split('/').some(segment => segment === '..' || segment.startsWith('.'))) throw new AppError('파일에 접근할 수 없습니다.', 403);
@@ -112,7 +119,10 @@ export function createApp({ dataDir = process.env.DATA_DIR || resolve(ROOT, 'dat
         if (error instanceof AppError) throw error;
         throw new AppError('파일을 찾을 수 없습니다.', 404);
       }
-      const content = await readFile(canonical);
+      let content = await readFile(canonical);
+      if (development && extname(canonical).toLowerCase() === '.html') {
+        content = Buffer.from(content.toString('utf8').replace('</body>', '<script defer src="/__dev/agentation.js"></script></body>'));
+      }
       res.writeHead(200, { 'Content-Type': MIME[extname(canonical).toLowerCase()] || 'application/octet-stream', 'Content-Length': content.length, 'Cache-Control': 'no-cache' });
       res.end(req.method === 'HEAD' ? undefined : content);
     } catch (error) {

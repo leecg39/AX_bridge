@@ -4,6 +4,19 @@
   "private": true,
   "type": "module",
   "description": "Local-only AX brokerage operations prototype with fictional demonstration data",
-  "engines": { "node": ">=24.0.0" },
-  "scripts": { "start": "node server.mjs", "test": "node --test tests/*.test.mjs" }
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build:agentation": "node scripts/build-agentation.mjs"
+  },
+  "devDependencies": {
+    "agentation": "^3.1.2",
+    "esbuild": "^0.28.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }

@@ -76,4 +76,8 @@
 - [운영실](admin-system.png), [모바일 가입](signup-system.png)
 - [자산 출처 URL](assets.json)
 
-사진은 Unsplash 이미지 CDN에서 받은 설명용 사무실·노트북·팀·서버 이미지이며 실제 AX브릿지 고객/사무실/실적을 나타내지 않습니다. Pretendard는 `public/assets/FONT-LICENSE.txt`와 함께 자체 호스팅합니다. 외부 CDN은 페이지 실행 시 필요하지 않습니다.
+사진은 Unsplash 및 Pexels 이미지 CDN에서 받은 설명용 사무실·노트북·팀·서버 이미지이며 실제 AX브릿지 고객/사무실/실적을 나타내지 않습니다. Pretendard는 `public/assets/FONT-LICENSE.txt`와 함께 자체 호스팅합니다. 외부 CDN은 페이지 실행 시 필요하지 않습니다.
+
+### 서비스 카드 이미지 수정
+
+중복 사진 피드백을 반영해 맞춤형 AI 솔루션은 코드 화면, 조직 AI 워크숍은 포스트잇 보드, 도입·운영은 서버실 점검 장면으로 교체했습니다. 서비스 카드 6개가 각각 다른 이미지를 사용합니다.
