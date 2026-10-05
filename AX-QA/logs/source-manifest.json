@@ -1,0 +1,212 @@
+{
+  "zip_sha256": "5f8e0f77c0997e62f2c8b6230fc44440da1addda99c4fdcbfcf0ba221414bde7",
+  "zip_size": 222474,
+  "package_version": "1.1.1",
+  "files": [
+    {
+      "file": ".gitignore",
+      "matches": true,
+      "sha256": "79a9e9215e162ff895b2a316c37a75ae7495e4b4b0f80a8e11b4721bd7ac9c16"
+    },
+    {
+      "file": "PREVIEW.html",
+      "matches": true,
+      "sha256": "a6154f109077e6aa06adb2a8b139189061315da53e816e4f265dc4ec020b211a"
+    },
+    {
+      "file": "README.md",
+      "matches": true,
+      "sha256": "623e0f3c8a777e25a57789cb1a6f7043a9ac48ffb8fe3f32460781274f1d35e1"
+    },
+    {
+      "file": "db.mjs",
+      "matches": true,
+      "sha256": "0498a8ebc541d230d67a88798dc760261aad83027e8c70975ac6fb30f389031a"
+    },
+    {
+      "file": "docs/CHANGELOG.ko.md",
+      "matches": true,
+      "sha256": "2313d894567256632ce773eb9cd188922da1292ea2a27ee2132137ce6accc931"
+    },
+    {
+      "file": "docs/DESIGN.ko.md",
+      "matches": true,
+      "sha256": "52085427577a449a0ea2e0141f304985bc21d318083f52421113911ebac6ca35"
+    },
+    {
+      "file": "docs/IMPROVEMENT-2026-10-05.ko.md",
+      "matches": true,
+      "sha256": "a9b615d4b394d660ff9a5507cabaaabaec8cc04084d37ce6fa1e32dccdc0088a"
+    },
+    {
+      "file": "docs/REVIEW-GUIDE.ko.md",
+      "matches": true,
+      "sha256": "77542dd9a769941bc48ee3805dabe022a5396d308b93ce1072f490aa34b863e7"
+    },
+    {
+      "file": "docs/VERIFICATION.ko.md",
+      "matches": true,
+      "sha256": "a36bad03331ab01edc4769a0e3861b97cc1342a65f6e8bf97ed842bc57749048"
+    },
+    {
+      "file": "docs/fresh-package-tests.txt",
+      "matches": true,
+      "sha256": "290691794f6440851f75d758e2af2f9f1722333cc4c873d23864961f030d87ef"
+    },
+    {
+      "file": "docs/regression-before.txt",
+      "matches": true,
+      "sha256": "c47b0aecbd70b4751b35eaa31f71ac64a06242b379ba418b0c861e9c89fadfad"
+    },
+    {
+      "file": "docs/support-notices.json",
+      "matches": true,
+      "sha256": "40d46767d2784b5da142b9e47c0a63655f88be63711541ce3d9fc8364428abae"
+    },
+    {
+      "file": "docs/test-results.txt",
+      "matches": true,
+      "sha256": "5c45bf419f9deb46a480d82c0399e289cae8733392057425d5a4c89cc42cbe69"
+    },
+    {
+      "file": "package.json",
+      "matches": true,
+      "sha256": "53fa36b2d4f904fd13ea0bf048bcbb7ffef4591699cf05700c730892d4a80cb6"
+    },
+    {
+      "file": "public/admin.html",
+      "matches": true,
+      "sha256": "58020479725370e1d79aa8616c5c453fdd2c7826dfb9b18e31356d1ab4569a5b"
+    },
+    {
+      "file": "public/app.js",
+      "matches": true,
+      "sha256": "b511b59e7d2093dc648c7fdb322c5b71bc1d70875ad4b9b6239985d6979afb18"
+    },
+    {
+      "file": "public/buyer.html",
+      "matches": true,
+      "sha256": "aa956b966b6ebbbb3a446c43263577441b8ea8b90f13bc86d750257dbfd5f47f"
+    },
+    {
+      "file": "public/case-kpis.js",
+      "matches": true,
+      "sha256": "b30698bef6f821feb9e48cc94a1f03cefcdb245d04f20831a92c7dc63defccbd"
+    },
+    {
+      "file": "public/consultation.css",
+      "matches": true,
+      "sha256": "da2eaeaf05c936f40640aee3b419021f5796314c0237ffea5e994708722fcb7a"
+    },
+    {
+      "file": "public/consultation.html",
+      "matches": true,
+      "sha256": "564f22f17a4d75858fefb22cf5261db63419e9b32c8ae3322973b6ed0e20ead2"
+    },
+    {
+      "file": "public/consultation.js",
+      "matches": true,
+      "sha256": "f49aa3c873d691e4ac1a06362d73912a12518c8b7896ce807bff66a0ff4c7b80"
+    },
+    {
+      "file": "public/index.html",
+      "matches": true,
+      "sha256": "d087646c96055986a54a2b9a397ae4abadbd1614a99e2e87724abf118396606f"
+    },
+    {
+      "file": "public/landing.css",
+      "matches": true,
+      "sha256": "c45f78cfa79e9528f931ddb13ab71ce3e0c5b425fc15c9f81bc83aaf416925a3"
+    },
+    {
+      "file": "public/landing.js",
+      "matches": true,
+      "sha256": "8684dc7ee7431622293ab89bbd133862e7e44a5c341b8360c46f40efeef9a182"
+    },
+    {
+      "file": "public/portal.css",
+      "matches": true,
+      "sha256": "09ad384d71e43ed6baab6ebeccbcf6a8b6074ffdb7862205acad71ebccafd1b4"
+    },
+    {
+      "file": "public/portal.js",
+      "matches": true,
+      "sha256": "debb2ce5d0d226221a004d4befe5fcff6cf4127b3aef95a1a3266d171e9e4c5b"
+    },
+    {
+      "file": "public/signup.html",
+      "matches": true,
+      "sha256": "8a1c0bdb50c6c76e37c1ecb7ed35033de34e44e62469ac91646e73f61e0a9cdf"
+    },
+    {
+      "file": "public/styles.css",
+      "matches": true,
+      "sha256": "7170b7c1640fb17c4dc81e9ac8070afbbcd9c1ad469a46e9497524e8f721a8ee"
+    },
+    {
+      "file": "public/supplier.html",
+      "matches": true,
+      "sha256": "056401633cba043229b0814445511986704b6ba2861d91b7fbb879408bb1e739"
+    },
+    {
+      "file": "scripts/make-preview.mjs",
+      "matches": true,
+      "sha256": "fbc91b72e61e1544a0755c1b946663702f364d3103f7f09ec66e93e5e03a804c"
+    },
+    {
+      "file": "seed.mjs",
+      "matches": true,
+      "sha256": "96bca0314aa6e94c801631ddfc9df143de9d5af3808cc1045ad329b9ca5657fa"
+    },
+    {
+      "file": "server.mjs",
+      "matches": true,
+      "sha256": "7b0e439fe93c9957d25b0955518b53d60a1b25818eccc5376a2a1470b65d8236"
+    },
+    {
+      "file": "tests/backend.test.mjs",
+      "matches": true,
+      "sha256": "04a4a42ec8e2a825b4c8e86a77f9fa60c1952b9958bcab5fdf37fb255ce03524"
+    },
+    {
+      "file": "tests/browser-smoke.py",
+      "matches": true,
+      "sha256": "a3e14e866221deceeed20c302f0aeb20804c955006134ed9b8c68b2838a7eee4"
+    },
+    {
+      "file": "tests/case-kpis.test.mjs",
+      "matches": true,
+      "sha256": "592343311d89b8ebc048dbdcedca54aa7400be632e494dddd15580d45a8287ac"
+    },
+    {
+      "file": "tests/consultation-retry.test.mjs",
+      "matches": true,
+      "sha256": "61b5f24d4e51b514ce03a23f1da99da44600be96c662a21a6d6ca05358ee9c61"
+    },
+    {
+      "file": "tests/date-defaults.test.mjs",
+      "matches": true,
+      "sha256": "2aa61e03fd97b4151d47d5834f53a6e8a3259c6da9110b5a4e1a95c3df5ab0c6"
+    },
+    {
+      "file": "tests/frontend.test.mjs",
+      "matches": true,
+      "sha256": "5101de379d964c322b038b41c6bd011d3dd89d1abc3f9c516137e1e61fbcadb3"
+    },
+    {
+      "file": "tests/improvement-admin-forms.test.mjs",
+      "matches": true,
+      "sha256": "4bc555437bf78485272e011334a2695a24d85aca856488c169e4cdd8463bbe8c"
+    },
+    {
+      "file": "tests/landing.test.mjs",
+      "matches": true,
+      "sha256": "73d5996bbfccf073a15ed9ea1fd8c41d9c16ff43a0e23046ae8149387446c701"
+    },
+    {
+      "file": "tests/portal-render.test.mjs",
+      "matches": true,
+      "sha256": "3aa191539fc3f99818aa81aa109fc63ece32281e3487d8fba939b06b8d76d200"
+    }
+  ]
+}

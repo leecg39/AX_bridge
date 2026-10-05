@@ -1,0 +1,292 @@
+[
+  {
+    "id": "2026-cbtp-manufacturing-ai",
+    "name": "[충북] 2026년 제조 AI 현장 적용 지원 사업 수혜기업 모집 공고",
+    "year": 2026,
+    "officialUrl": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126558",
+    "startDate": "2026-09-16",
+    "endDate": "2026-10-11",
+    "eligibility": "충주시·진천군·음성군에 본사 또는 공장 등이 있고 제조공정을 보유한 융합바이오 분야 중소·중견기업. 대표 분야는 의료·바이오·화장품·식품·제지. 수요기업과 공급기업의 컨소시엄이 필요하며 세부 배제요건은 원문 확인.",
+    "benefit": "기업당 최대 8,000만원(VAT 별도). 제조 공정용 AI 개발·실증에 데이터 컨설팅, AX 검증, 사후관리를 묶어 지원. 협약일부터 10개월 예정.",
+    "selfContribution": "중소기업 500만원 이상, 중견기업 1,000만원 이상. VAT 별도. 최대지원 예시는 중소기업 총 8,500만원, 중견기업 총 9,000만원이며 세부 집행조건 확인 필요.",
+    "note": "실제 수혜기업 모집 공고. 2026-10-05 08:47 KST 기준 접수기간 내이나 충북 3개 시·군과 융합바이오 제조기업에 한정. 마감 2026-10-11 16:00 KST. 공고 PDF는 9/16, 기업마당 등록은 9/17. 사업 종료 산출물(데이터셋·AI 모델 등)은 포털 등에 공개 예정이므로 데이터 공개 조건 확인 필요. 접수 사이트 로그인·실제 신청 가능 여부는 시험하지 않음.",
+    "verification": "verified",
+    "isDemo": false,
+    "documentType": "실제 모집공고",
+    "status": "접수기간 내 · 지역/업종 제한",
+    "applicantType": "수요기업+공급기업 컨소시엄",
+    "agency": "중소벤처기업부·중소기업기술정보진흥원·충청북도/충주시/진천군/음성군",
+    "operator": "충북테크노파크",
+    "publishedAt": "2026-09-16",
+    "deadlineTime": "16:00",
+    "timezone": "Asia/Seoul",
+    "statusEvidence": "공고문 p.3 접수기간 2026-09-16~2026-10-11 16:00; 기준시각이 기간 안에 있음. p.1 지원대상·한도·자부담, p.4 컨소시엄 요건 확인.",
+    "perApplicantCapKrw": 80000000,
+    "budgetTotalKrw": null,
+    "sources": [
+      {
+        "label": "기업마당 공식 공고",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126558"
+      },
+      {
+        "label": "공고 PDF",
+        "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000773752&fileSn=2"
+      },
+      {
+        "label": "충북테크노파크 원문",
+        "url": "https://www.cbtp.or.kr/index.php?board_id=news_notice&categ=&control=bbs&list_mode=&lm_uid=36&mode=view&no=4161&offset=1&page=1"
+      }
+    ],
+    "checkedAt": "2026-10-05T08:47:32+09:00",
+    "asOfDate": "2026-10-05"
+  },
+  {
+    "id": "2026-smartservice-as",
+    "name": "2026년 중소기업 스마트서비스 지원사업(A/S지원) 참여기업 모집 공고",
+    "year": 2026,
+    "officialUrl": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071012&cbIdx=310",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-06",
+    "eligibility": "2020~2025년 스마트서비스 지원사업에서 성공(완료) 판정을 받은 도입 중소기업만 신청 가능. 2025년 A/S 수혜기업과 2026년 고도화 참여기업은 제외. 스마트공장 사업관리시스템에 등록된 스마트서비스 기술기업과 컨소시엄 필요.",
+    "benefit": "솔루션 유지관리·교육·기능개선·보안 강화 등 A/S 비용의 50% 이내, 과제당 최대 1,500만원. 지원기간 4개월, 약 10개 과제·총 1억5,000만원 규모.",
+    "selfContribution": "정부지원 50% 이내이므로 나머지 비용은 기업 부담(최소 50%). 지원한도 초과분도 기업 부담. VAT 세부 처리 조건은 원문·수행기관 확인 필요.",
+    "note": "실제 기업모집 공고 제2026-540호. 2026-10-05 08:47 KST 기준 접수기간 내, 마감 10/6 17:00 KST. 신규 도입용 지원사업이 아니라 과거 참여기업의 A/S 전용. 기술기업 신규 등록은 마감 최소 5일 전 신청 권고가 있어 미등록 파트너는 일정상 주의. 접수 사이트 로그인·실제 신청 가능 여부는 시험하지 않음.",
+    "verification": "verified",
+    "isDemo": false,
+    "documentType": "실제 모집공고",
+    "status": "접수기간 내 · 기존 수혜기업 전용",
+    "applicantType": "기존 도입기업+등록 기술기업 컨소시엄",
+    "agency": "중소벤처기업부",
+    "operator": "중소기업기술정보진흥원 / 중소기업기술혁신협회",
+    "publishedAt": "2026-09-07",
+    "deadlineTime": "17:00",
+    "timezone": "Asia/Seoul",
+    "statusEvidence": "중기부 게시판 신청기간 및 공고 PDF p.1·3~4 확인: 2026-09-07~10-06 17:00. 기존 수혜기업 제한과 2025 A/S·2026 고도화 중복제외 명시.",
+    "perApplicantCapKrw": 15000000,
+    "budgetTotalKrw": 150000000,
+    "sources": [
+      {
+        "label": "중기부 공식 공고",
+        "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071012&cbIdx=310"
+      },
+      {
+        "label": "공고 PDF",
+        "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071012&cbIdx=310&streFileNm=177f26a4-be4f-40bb-9572-b517dcb4d80c.pdf"
+      },
+      {
+        "label": "기업마당 요약",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126217"
+      }
+    ],
+    "checkedAt": "2026-10-05T08:47:32+09:00",
+    "asOfDate": "2026-10-05"
+  },
+  {
+    "id": "2026-nipa-ai-voucher",
+    "name": "2026년 AI 통합 바우처 지원사업 중 AI바우처 지원사업 모집 수정공고",
+    "year": 2026,
+    "officialUrl": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&bsnsDtlsIemNo=&nttNo=16592&tab=2",
+    "startDate": "2026-03-16",
+    "endDate": "2026-03-30",
+    "eligibility": "AI 솔루션 도입을 원하는 국내 중소·벤처·중견기업, 의료기관, 소상공인 등. 국내 AI 공급기업과 컨소시엄으로 신청. 일반·AI반도체·소상공인·글로벌 분과별 자격을 별도로 확인해야 함.",
+    "benefit": "AI 솔루션 구매·활용을 위한 과제당 최대 2억원 바우처. 실제 금액은 사업비 심의 및 분과별 기준에 따라 달라짐.",
+    "selfContribution": "정부지원금을 제외한 사업비는 수요·공급기업의 현금·현물 매칭 필요. 비율과 부담 주체는 분과별 공모안내서에 따르며 이번 수집에서는 세부 비율 미확인.",
+    "note": "실제 모집공고이나 현재 마감. 공고일은 2026-02-27, 이번 수정 게시일은 3/20. 본문은 전산 접수 개시 3/16로 안내하므로 게시판의 수정공고 시작값(3/20)과 구분. 접수 마감은 3/30 15:00 KST. 2027 동일 사업 모집 일정·한도는 이 공고로 확정할 수 없음.",
+    "verification": "verified",
+    "isDemo": false,
+    "documentType": "실제 모집공고",
+    "status": "접수 마감",
+    "applicantType": "수요기업+AI 공급기업 컨소시엄",
+    "agency": "과학기술정보통신부",
+    "operator": "정보통신산업진흥원(NIPA)",
+    "publishedAt": "2026-02-27",
+    "updatedAt": "2026-03-20",
+    "deadlineTime": "15:00",
+    "timezone": "Asia/Seoul",
+    "statusEvidence": "NIPA 원문 본문의 전산접수 개시일 3/16 및 마감일시 3/30 15:00 확인. 기준일 10/5는 마감 이후.",
+    "perApplicantCapKrw": 200000000,
+    "budgetTotalKrw": null,
+    "sources": [
+      {
+        "label": "NIPA 공식 수정공고",
+        "url": "https://www.nipa.kr/home/bsnsAll/0/nttDetail?bbsNo=4&bsnsDtlsIemNo=&nttNo=16592&tab=2"
+      }
+    ],
+    "checkedAt": "2026-10-05T08:47:32+09:00",
+    "asOfDate": "2026-10-05"
+  },
+  {
+    "id": "2026-smartshop-round2",
+    "name": "2026년 2차 스마트상점 기술보급사업 참여 소상공인 모집 공고(구입형·렌탈형·S/W형)",
+    "year": 2026,
+    "officialUrl": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125880",
+    "startDate": "2026-08-26",
+    "endDate": "2026-09-30",
+    "eligibility": "신청일에 정상 영업 중이고 소상공인확인서 발급이 가능한 점포. 공단에 등록된 기술만 지원. 유형별 기존 수혜·추가지원 및 제외업종 조건 확인 필요.",
+    "benefit": "구입형 최대 500만원(배리어프리 700만원), 렌탈형 연 최대 350만원·최대 2년, S/W형 점포당 연 최대 30만원·최대 2년. 유형별 지원율 및 한도 적용.",
+    "selfContribution": "보편기술 국비 50%(우대 60%), 일반·배리어프리·렌탈 국비 70%(우대 80%), S/W 개인형 100%·가맹본부형 90%. 국비 외 금액·한도 초과액·VAT는 소상공인 부담. 우대 대상 증빙 필요.",
+    "note": "실제 소상공인 모집공고이나 현재 마감. 공고문 날짜 8/26, 기업마당 등록 8/27. 접수는 8/26 10:00~9/30 17:00 KST. 구입·렌탈·S/W 지원은 각각 조건이 다르며 모든 점포에 동일 금액이 지급되는 것이 아님. 원문 PDF p.2 표를 시각적으로 확인.",
+    "verification": "verified",
+    "isDemo": false,
+    "documentType": "실제 모집공고",
+    "status": "접수 마감",
+    "applicantType": "소상공인 점포",
+    "agency": "중소벤처기업부",
+    "operator": "소상공인시장진흥공단",
+    "publishedAt": "2026-08-26",
+    "deadlineTime": "17:00",
+    "timezone": "Asia/Seoul",
+    "statusEvidence": "공고 PDF p.7 신청기간 2026-08-26 10:00~09-30 17:00 확인. 기준일 10/5는 마감 이후.",
+    "perApplicantCapKrw": null,
+    "budgetTotalKrw": null,
+    "sources": [
+      {
+        "label": "기업마당 공식 공고",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125880"
+      },
+      {
+        "label": "공고 PDF",
+        "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000770933&fileSn=0"
+      }
+    ],
+    "checkedAt": "2026-10-05T08:47:32+09:00",
+    "asOfDate": "2026-10-05"
+  },
+  {
+    "id": "2027-smartfactory-organizer",
+    "name": "2027년 스마트공장 구축지원사업 주관기관 모집 공고",
+    "year": 2027,
+    "officialUrl": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071206&cbIdx=310&parentSeq=1071206",
+    "startDate": "2026-09-16",
+    "endDate": "2026-10-13",
+    "eligibility": "기업을 지원·관리하는 주관기관 모집. 업종특화는 부처·지자체 추천 공공·민간기관, 지역성장은 19개 지역 TP 및 한국산업단지공단, 상생협력은 주관기관·상생기관 컨소시엄 등 유형별 자격 적용. 일반 도입기업 모집은 아님.",
+    "benefit": "2027년 스마트공장 관련 사업의 과제 선정·관리 및 제조혁신 지원을 수행할 기관 선정. 예산·운영비·연계 과제 등 세부사항은 후속 절차에 따라 확정.",
+    "selfContribution": "유형별 기관 운영·재원 조건 적용. 일반 수요기업 자부담을 이 공고로 확정하면 안 됨. 개별 도입기업 조건은 후속 통합공고 확인.",
+    "note": "실제 발표된 2027 사업의 주관기관 모집공고 제2026-559호. 10/5 기준 기관 접수기간 내(10/13 17:00 마감)이나 일반기업 신청 메뉴에서 제외해야 함. 원문은 도입기업 통합공고를 2026년 11월 예정으로 안내하며 일정 변경 가능. 아직 발표되지 않은 일반기업 모집을 접수중으로 표시하지 않음.",
+    "verification": "verified",
+    "isDemo": false,
+    "documentType": "기관 모집공고",
+    "status": "기관 접수기간 내 · 일반기업 공고 전",
+    "applicantType": "주관기관 / 기관 컨소시엄",
+    "agency": "중소벤처기업부",
+    "operator": "중소기업기술정보진흥원",
+    "publishedAt": "2026-09-16",
+    "deadlineTime": "17:00",
+    "timezone": "Asia/Seoul",
+    "statusEvidence": "중기부 게시판 및 공고 PDF p.1, p.13 확인: 주관기관 신청 2026-09-16~10-13 17:00. p.1에 도입기업은 주관기관 선정 후 11월 통합공고 예정 명시.",
+    "perApplicantCapKrw": null,
+    "budgetTotalKrw": null,
+    "sources": [
+      {
+        "label": "중기부 공식 공고",
+        "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1071206&cbIdx=310&parentSeq=1071206"
+      },
+      {
+        "label": "공고 PDF",
+        "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1071206&cbIdx=310&streFileNm=04d1bdd7-680d-45ca-bde0-58801e1e960d.pdf"
+      }
+    ],
+    "checkedAt": "2026-10-05T08:47:32+09:00",
+    "asOfDate": "2026-10-05"
+  },
+  {
+    "id": "2026-mss-confirmed-budget",
+    "name": "2026년 중소벤처기업부 확정예산 및 AI·제조혁신 관련 예산",
+    "year": 2026,
+    "officialUrl": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1063750&cbIdx=86",
+    "startDate": "",
+    "endDate": "",
+    "eligibility": "예산 확정 보도자료로 신청대상 공고가 아님. 기업별 지원 자격은 각 사업 모집공고에서 별도 판단.",
+    "benefit": "2026년 중기부 총지출 16조5,233억원 확정. 사업 전체 예산으로 ICT융합스마트공장보급확산 4,021억원, 지역 주도형 AI 대전환 490억원, 중소기업 혁신바우처 652억원, 대중소상생형스마트공장 400억원을 안내.",
+    "selfContribution": "이 자료에서는 개별기업 자부담을 확인할 수 없음. 사업별 실제 모집공고 확인 필요.",
+    "note": "자료유형: 확정예산 보도자료. 2025-12-02 국회 의결·확정, 12/3 게시. 2026년도 총액·사업별 예산이며 기업당 지원한도가 아님. 항목이 총액과 중복되거나 상하위 관계일 수 있으므로 단순 합산 금지. 본예산 확정 발표 기준으로 추경 이후 최신 총액까지 검증한 자료는 아님.",
+    "verification": "verified",
+    "isDemo": false,
+    "documentType": "확정예산 보도자료",
+    "status": "정책 참고 · 신청 공고 아님",
+    "applicantType": "해당 없음",
+    "agency": "중소벤처기업부",
+    "operator": "해당 없음",
+    "publishedAt": "2025-12-03",
+    "timezone": "Asia/Seoul",
+    "statusEvidence": "중기부 공식 보도자료에 2026년 예산·기금운용계획 총지출이 국회에서 의결·확정되었다고 명시.",
+    "perApplicantCapKrw": null,
+    "budgetTotalKrw": 16523300000000,
+    "budgetItems": [
+      {
+        "name": "ICT융합스마트공장보급확산",
+        "amountKrw": 402100000000
+      },
+      {
+        "name": "지역 주도형 AI 대전환",
+        "amountKrw": 49000000000
+      },
+      {
+        "name": "중소기업 혁신바우처 지원",
+        "amountKrw": 65200000000
+      },
+      {
+        "name": "대중소상생형스마트공장",
+        "amountKrw": 40000000000
+      }
+    ],
+    "sources": [
+      {
+        "label": "중기부 2026 확정예산 보도자료",
+        "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1063750&cbIdx=86"
+      }
+    ],
+    "checkedAt": "2026-10-05T08:47:32+09:00",
+    "asOfDate": "2026-10-05"
+  },
+  {
+    "id": "2027-mss-proposed-budget",
+    "name": "2027년 중소벤처기업부 예산안: AI·스마트공장 후속계획 참고",
+    "year": 2027,
+    "officialUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148971047",
+    "startDate": "",
+    "endDate": "",
+    "eligibility": "예산안 소개자료로 기업 모집공고가 아님. 신청대상·신청일·기업당 지원한도·선정조건 미확정.",
+    "benefit": "2027년 중기부 예산안 총 18조724억원. 사업 전체 편성안으로 ICT융합스마트공장 보급확산 4,682억원, 중소기업 피지컬 AI 실증 1,728억원, 제조AI Fellow 양성 284억원을 제시.",
+    "selfContribution": "개별기업 자부담 미확정. 예산 확정과 후속 모집공고 확인 필요.",
+    "note": "자료유형: 2027 예산안 정책자료. 2026-09-02 게시. 확정예산 또는 현재 신청 가능한 사업으로 표시 금지. 표시 금액은 기업당 지급액이 아닌 사업·부처 예산안 총액. 제공된 policyFocusView URL과 같은 newsId의 공식 policyNewsView 페이지에서 본문 확인. 이미지·기사 전문은 복제하지 않고 사실 요약과 출처 링크만 사용.",
+    "verification": "verified",
+    "isDemo": false,
+    "documentType": "예산안 · 후속계획",
+    "status": "후속계획 참고 · 신청 공고 아님",
+    "applicantType": "해당 없음",
+    "agency": "중소벤처기업부 / 대한민국 정책브리핑",
+    "operator": "미정",
+    "publishedAt": "2026-09-02",
+    "timezone": "Asia/Seoul",
+    "statusEvidence": "공식 페이지 제목·본문이 2027년 중소벤처기업부 '예산안'으로 명시. 이 자료에는 기업모집 접수기간이 없음.",
+    "perApplicantCapKrw": null,
+    "budgetTotalKrw": 18072400000000,
+    "budgetItems": [
+      {
+        "name": "ICT융합스마트공장 보급확산",
+        "amountKrw": 468200000000
+      },
+      {
+        "name": "중소기업 피지컬 AI 실증",
+        "amountKrw": 172800000000
+      },
+      {
+        "name": "제조AI Fellow 양성",
+        "amountKrw": 28400000000
+      }
+    ],
+    "sources": [
+      {
+        "label": "정책브리핑 2027 예산안 자료",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148971047"
+      },
+      {
+        "label": "사용자 제공 공식 URL",
+        "url": "https://www.korea.kr/news/policyFocusView.do?newsId=148971047"
+      }
+    ],
+    "checkedAt": "2026-10-05T08:47:32+09:00",
+    "asOfDate": "2026-10-05"
+  }
+]

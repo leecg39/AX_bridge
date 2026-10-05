@@ -1,0 +1,74 @@
+[
+  {
+    "width": 360,
+    "scrollWidth": 345,
+    "heroPhotoHeight": 212,
+    "heroHeading": "30px",
+    "menuVisible": true,
+    "fontLoaded": true
+  },
+  {
+    "width": 390,
+    "scrollWidth": 375,
+    "heroPhotoHeight": 212,
+    "heroHeading": "30px",
+    "menuVisible": true,
+    "fontLoaded": true
+  },
+  {
+    "width": 481,
+    "scrollWidth": 466,
+    "heroPhotoHeight": 212,
+    "heroHeading": "30px",
+    "menuVisible": true,
+    "fontLoaded": true
+  },
+  {
+    "width": 482,
+    "scrollWidth": 467,
+    "heroPhotoHeight": 620,
+    "heroHeading": "40px",
+    "menuVisible": true,
+    "fontLoaded": true
+  },
+  {
+    "width": 700,
+    "scrollWidth": 685,
+    "heroPhotoHeight": 620,
+    "heroHeading": "40px",
+    "menuVisible": true,
+    "fontLoaded": true
+  },
+  {
+    "width": 701,
+    "scrollWidth": 686,
+    "heroPhotoHeight": 620,
+    "heroHeading": "44px",
+    "menuVisible": false,
+    "fontLoaded": true
+  },
+  {
+    "width": 1010,
+    "scrollWidth": 995,
+    "heroPhotoHeight": 620,
+    "heroHeading": "44px",
+    "menuVisible": false,
+    "fontLoaded": true
+  },
+  {
+    "width": 1011,
+    "scrollWidth": 996,
+    "heroPhotoHeight": 620,
+    "heroHeading": "44px",
+    "menuVisible": false,
+    "fontLoaded": true
+  },
+  {
+    "width": 1440,
+    "scrollWidth": 1425,
+    "heroPhotoHeight": 620,
+    "heroHeading": "48px",
+    "menuVisible": false,
+    "fontLoaded": true
+  }
+]

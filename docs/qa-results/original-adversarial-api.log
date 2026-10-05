@@ -1,0 +1,63 @@
+(node:9972) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+QA source: /Users/user01/Desktop/AX_bridge Node: v25.4.0
+✔ CONTROL: malformed object/type/overflow/date values reject atomically (126.717083ms)
+✔ CONTROL: JSON prototype keys neither pollute nor persist (15.934625ms)
+✔ CONTROL: unsafe URL schemes and embedded credentials rejected (26.158792ms)
+✔ CONTROL: invalid JSON / wrong content type / over-limit body blocked (21.339917ms)
+✔ CONTROL: chunked over-limit body blocked without corrupting data (18.076166ms)
+✔ CONTROL: local Host, external Origin and cross-site requests denied (16.884333ms)
+✔ CONTROL: static traversal, encoded slash/backslash, private files not served (14.212375ms)
+✔ CONTROL: role/entity mismatch and unsupported role rejected; default-admin is accepted demo limitation (21.515959ms)
+✔ CONTROL: fixed-role cross-entity GET/PATCH/DELETE matrix blocked (50.767917ms)
+✔ CONTROL: buyer cannot alter stage, ownership, quote choice, attribution or shared state (37.131875ms)
+✔ CONTROL: supplier cannot force sharing, move quotes or claim unassigned delivery (45.717541ms)
+✔ CONTROL: sharing requires salesperson; supplier edit atomically revokes sharing (46.606125ms)
+✔ CONTROL: shared buyer state strips designated supplier contacts and internal notes (28.760458ms)
+✔ CONTROL: referral owner reassignment, code update and restart preserve initial attribution (76.782958ms)
+✔ CONTROL: invalid referral signup creates no partial record (20.2625ms)
+✔ CONTROL: twenty concurrent identical consultations yield one receipt and intake task (111.467208ms)
+✔ CONTROL: twenty concurrent creates within one server preserve every record (109.00525ms)
+✔ CONTROL: same-record partial PATCH updates to independent fields both persist (19.68025ms)
+✔ CONTROL: full backup round-trip and restart preserve all collections and identifiers (23.170042ms)
+✔ CONTROL: invalid schema, duplicate IDs and broken references leave backup unchanged (58.741833ms)
+✔ CONTROL: imported empty database stays empty after restart (26.207958ms)
+✔ CONTROL: approved deliverables locked against supplier overwrite (48.956208ms)
+B01 evidence {"first":{"role":"buyer","entityId":"c895f842-28df-4f28-8eb3-6f4c357a5d81"},"second":{"role":"buyer","entityId":"deb4ec11-93bd-4711-9d0d-239937f3b2b2"},"matchingRecords":2}
+✖ REPRO B01: registration response-loss retry should reuse the created entity (17.811417ms)
+B02 evidence {"submit":400,"approve":400,"complete":400}
+✔ REPRO B02: selected supplier empty/whitespace deliverable must not enter review/completion (46.398125ms)
+B03 evidence {"status":400}
+✔ REPRO B03: included installation cost must not exceed quote total (23.459459ms)
+B04 evidence {"status":400}
+✔ REPRO B04: equipment quantity must be integral in server validation (32.661042ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 25
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1341.551958
+
+✖ failing tests:
+
+test at AX-QA/backend/adversarial-api.test.mjs:52:1
+✖ REPRO B01: registration response-loss retry should reuse the created entity (17.811417ms)
+  AssertionError [ERR_ASSERTION]: Same logical signup retry created a second project; no idempotency token exists
+  + actual - expected
+  
+  + 'deb4ec11-93bd-4711-9d0d-239937f3b2b2'
+  - 'c895f842-28df-4f28-8eb3-6f4c357a5d81'
+  
+      at TestContext.<anonymous> (file:///Users/user01/Desktop/AX_bridge/AX-QA/backend/adversarial-api.test.mjs:53:231)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1102:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:777:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'deb4ec11-93bd-4711-9d0d-239937f3b2b2',
+    expected: 'c895f842-28df-4f28-8eb3-6f4c357a5d81',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,21 @@
+{
+  "server.mjs": {
+    "whole_file_identical_to_v1_1_0": true
+  },
+  "public/portal.js": {
+    "whole_file_identical_to_v1_1_0": true
+  },
+  "public/app.js": {
+    "function formDialog": true,
+    "async function refresh": true,
+    "function openQuote": true,
+    "function openReview": true,
+    "let operatorMode": true,
+    "app.addEventListener('change',async e=>{if(e.target.id==='operator-role')": true
+  },
+  "db.mjs": {
+    "  quotes:": true,
+    "  milestones:": true,
+    "validateState_identical": true
+  }
+}

@@ -1,0 +1,115 @@
+QA source: /workspace/shared/ax-broker-mvp Node: v24.19.0
+✔ CONTROL: malformed object/type/overflow/date values reject atomically (90.039735ms)
+✔ CONTROL: JSON prototype keys neither pollute nor persist (9.079233ms)
+✔ CONTROL: unsafe URL schemes and embedded credentials rejected (22.397702ms)
+✔ CONTROL: invalid JSON / wrong content type / over-limit body blocked (16.336576ms)
+✔ CONTROL: chunked over-limit body blocked without corrupting data (17.658333ms)
+✔ CONTROL: local Host, external Origin and cross-site requests denied (9.152295ms)
+✔ CONTROL: static traversal, encoded slash/backslash, private files not served (8.571036ms)
+✔ CONTROL: role/entity mismatch and unsupported role rejected; default-admin is accepted demo limitation (22.213013ms)
+✔ CONTROL: fixed-role cross-entity GET/PATCH/DELETE matrix blocked (40.954702ms)
+✔ CONTROL: buyer cannot alter stage, ownership, quote choice, attribution or shared state (39.11438ms)
+✔ CONTROL: supplier cannot force sharing, move quotes or claim unassigned delivery (46.404854ms)
+✔ CONTROL: sharing requires salesperson; supplier edit atomically revokes sharing (43.447527ms)
+✔ CONTROL: shared buyer state strips designated supplier contacts and internal notes (25.394768ms)
+✔ CONTROL: referral owner reassignment, code update and restart preserve initial attribution (57.832766ms)
+✔ CONTROL: invalid referral signup creates no partial record (18.751733ms)
+✔ CONTROL: twenty concurrent identical consultations yield one receipt and intake task (66.599647ms)
+✔ CONTROL: twenty concurrent creates within one server preserve every record (63.338982ms)
+✔ CONTROL: same-record partial PATCH updates to independent fields both persist (16.447894ms)
+✔ CONTROL: full backup round-trip and restart preserve all collections and identifiers (18.433664ms)
+✔ CONTROL: invalid schema, duplicate IDs and broken references leave backup unchanged (59.008285ms)
+✔ CONTROL: imported empty database stays empty after restart (15.063052ms)
+✔ CONTROL: approved deliverables locked against supplier overwrite (40.457085ms)
+B01 evidence {"first":{"role":"buyer","entityId":"f2304d88-dc03-4cda-8f47-df0d5c8e4714"},"second":{"role":"buyer","entityId":"7c4fe08b-7337-473c-a9b7-471df2d6e0bb"},"matchingRecords":2}
+✖ REPRO B01: registration response-loss retry should reuse the created entity (15.151697ms)
+B02 evidence {"submit":200,"storedDeliverable":"","approve":200,"complete":200,"stage":"completed"}
+✖ REPRO B02: selected supplier empty/whitespace deliverable must not enter review/completion (38.205774ms)
+B03 evidence {"status":200,"amount":1000,"installationCost":9000}
+✖ REPRO B03: included installation cost must not exceed quote total (24.853801ms)
+B04 evidence {"status":200,"quantity":1.5}
+✖ REPRO B04: equipment quantity must be integral in server validation (23.617799ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 22
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 937.56785
+
+✖ failing tests:
+
+test at ../../shared/ax-qa-20261005/backend/adversarial-api.test.mjs:52:1
+✖ REPRO B01: registration response-loss retry should reuse the created entity (15.151697ms)
+  AssertionError [ERR_ASSERTION]: Same logical signup retry created a second project; no idempotency token exists
+  + actual - expected
+  
+  + '7c4fe08b-7337-473c-a9b7-471df2d6e0bb'
+  - 'f2304d88-dc03-4cda-8f47-df0d5c8e4714'
+  
+      at TestContext.<anonymous> (file:///workspace/shared/ax-qa-20261005/backend/adversarial-api.test.mjs:53:231)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '7c4fe08b-7337-473c-a9b7-471df2d6e0bb',
+    expected: 'f2304d88-dc03-4cda-8f47-df0d5c8e4714',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at ../../shared/ax-qa-20261005/backend/adversarial-api.test.mjs:54:1
+✖ REPRO B02: selected supplier empty/whitespace deliverable must not enter review/completion (38.205774ms)
+  AssertionError [ERR_ASSERTION]: Whitespace-only deliverable was accepted and project completed
+  
+  200 !== 400
+  
+      at TestContext.<anonymous> (file:///workspace/shared/ax-qa-20261005/backend/adversarial-api.test.mjs:54:780)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 200,
+    expected: 400,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at ../../shared/ax-qa-20261005/backend/adversarial-api.test.mjs:55:1
+✖ REPRO B03: included installation cost must not exceed quote total (24.853801ms)
+  AssertionError [ERR_ASSERTION]: Quote stores an included installation cost above total
+  
+  200 !== 400
+  
+      at TestContext.<anonymous> (file:///workspace/shared/ax-qa-20261005/backend/adversarial-api.test.mjs:55:344)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 200,
+    expected: 400,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at ../../shared/ax-qa-20261005/backend/adversarial-api.test.mjs:56:1
+✖ REPRO B04: equipment quantity must be integral in server validation (23.617799ms)
+  AssertionError [ERR_ASSERTION]: Fractional equipment count accepted despite UI step=1
+  
+  200 !== 400
+  
+      at TestContext.<anonymous> (file:///workspace/shared/ax-qa-20261005/backend/adversarial-api.test.mjs:56:277)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 200,
+    expected: 400,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

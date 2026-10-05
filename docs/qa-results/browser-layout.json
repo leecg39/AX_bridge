@@ -1,0 +1,110 @@
+[
+  {
+    "url": "/#dashboard",
+    "width": 1440,
+    "overflow": false,
+    "text": 1040
+  },
+  {
+    "url": "/#projects",
+    "width": 1440,
+    "overflow": false,
+    "text": 1125
+  },
+  {
+    "url": "/#compare",
+    "width": 1440,
+    "overflow": false,
+    "text": 1289
+  },
+  {
+    "url": "/#crm",
+    "width": 1440,
+    "overflow": false,
+    "text": 1737
+  },
+  {
+    "url": "/#programs",
+    "width": 1440,
+    "overflow": false,
+    "text": 4214
+  },
+  {
+    "url": "/#investments",
+    "width": 1440,
+    "overflow": false,
+    "text": 882
+  },
+  {
+    "url": "/buyer.html",
+    "width": 1440,
+    "overflow": false,
+    "text": 1087
+  },
+  {
+    "url": "/supplier.html",
+    "width": 1440,
+    "overflow": false,
+    "text": 804
+  },
+  {
+    "url": "/signup.html",
+    "width": 1440,
+    "overflow": false,
+    "text": 652
+  },
+  {
+    "url": "/#dashboard",
+    "width": 390,
+    "overflow": false,
+    "text": 880
+  },
+  {
+    "url": "/#projects",
+    "width": 390,
+    "overflow": false,
+    "text": 989
+  },
+  {
+    "url": "/#compare",
+    "width": 390,
+    "overflow": false,
+    "text": 1152
+  },
+  {
+    "url": "/#crm",
+    "width": 390,
+    "overflow": false,
+    "text": 1599
+  },
+  {
+    "url": "/#programs",
+    "width": 390,
+    "overflow": false,
+    "text": 4078
+  },
+  {
+    "url": "/#investments",
+    "width": 390,
+    "overflow": false,
+    "text": 745
+  },
+  {
+    "url": "/buyer.html",
+    "width": 390,
+    "overflow": false,
+    "text": 1016
+  },
+  {
+    "url": "/supplier.html",
+    "width": 390,
+    "overflow": false,
+    "text": 740
+  },
+  {
+    "url": "/signup.html",
+    "width": 390,
+    "overflow": false,
+    "text": 565
+  }
+]

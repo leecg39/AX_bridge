@@ -1,0 +1,22 @@
+# Local application data and server processes
+/data/
+/.runtime/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.pid
+
+# Dependencies and local environment
+/node_modules/
+.env
+.env.*
+!.env.example
+
+# Operating system and editor files
+.DS_Store
+._*
+.vscode/
+.idea/
+__pycache__/
+*.pyc

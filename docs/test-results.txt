@@ -1,0 +1,47 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> ax-broker-operations@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ seeds fictional AX and education workflows with unverified named candidates (116.752886ms)
+✔ project CRUD trims inputs, ignores unknown fields, preserves identifiers and timestamps (29.271267ms)
+✔ education fields and supplier service types persist with validation (30.761518ms)
+✔ quote selection and progress require a received quote belonging to the project (58.788385ms)
+✔ completion needs approved milestones and approval never auto-completes a project (42.032164ms)
+✔ deleting projects cascades their quotes, milestones and tasks only (40.642944ms)
+✔ rejects invalid values, foreign keys, oversized data and malformed JSON (50.275105ms)
+✔ backup export/import validates the entire graph atomically and preserves IDs (38.920272ms)
+✔ data survives process restart and an imported empty workspace is not reseeded (152.724163ms)
+✔ rejects hostile origins, DNS-rebinding Host headers and static traversal (34.706488ms)
+✔ refuses non-loopback bind settings (57.399397ms)
+✔ infrastructure, support programs, applications, investments and sales CRM CRUD validate and export (87.618025ms)
+✔ buyer projection and writes cannot reveal unrelated or internal data (62.869169ms)
+✔ supplier projection hides competitors and customer private fields; writes stay assigned (39.873332ms)
+✔ sales projection and CRM mutations stay within ownership with no investment access (32.984907ms)
+✔ every non-admin role denies private module routes and workspace actions (146.077142ms)
+✔ demo registration creates a local buyer request or candidate supplier, never admin (22.954084ms)
+✔ demo options expose only chooser metadata without unscoped private data (7.461351ms)
+✔ only selected supplier sees project deliverables and can submit; approved deliverables stay locked (59.919825ms)
+✔ dashboard renders counts, demo warnings and role navigation (24.320298ms)
+✔ every admin route renders and all project tabs handle the seed (14.660806ms)
+✔ all create and edit forms render without runtime errors (4.225933ms)
+✔ search and service filters select projects; list and board both render (2.729173ms)
+✔ untrusted text is escaped and unsafe resource links are never active (2.513606ms)
+✔ sales mode hides investment/support/data routes and assignment changes (2.339314ms)
+✔ support notices are separated from budget and institution references (3.157149ms)
+✔ buyer portals render every seeded entity and route with scoped requests (40.28901ms)
+✔ supplier portals render every seeded entity and route with scoped requests (13.45809ms)
+✔ buyer request form matches the exact three-field write allowlist (8.18233ms)
+✔ buyer review controls appear only for submitted milestones (7.770748ms)
+✔ supplier forms expose own quotes and submissions without approval controls (13.680336ms)
+✔ changing the demo entity requests fresh scoped state (3.324953ms)
+✔ signup offers buyer/supplier only and all three services without passwords (1.225432ms)
+✔ portal renders untrusted request text as escaped content (1.352634ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1197.381742

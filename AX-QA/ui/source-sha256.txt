@@ -1,0 +1,4 @@
+b511b59e7d2093dc648c7fdb322c5b71bc1d70875ad4b9b6239985d6979afb18  public/app.js
+debb2ce5d0d226221a004d4befe5fcff6cf4127b3aef95a1a3266d171e9e4c5b  public/portal.js
+f49aa3c873d691e4ac1a06362d73912a12518c8b7896ce807bff66a0ff4c7b80  public/consultation.js
+b30698bef6f821feb9e48cc94a1f03cefcdb245d04f20831a92c7dc63defccbd  public/case-kpis.js

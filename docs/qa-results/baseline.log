@@ -1,0 +1,80 @@
+✔ seeds fictional AX and education workflows with unverified named candidates (259.390167ms)
+✔ project CRUD trims inputs, ignores unknown fields, preserves identifiers and timestamps (33.667334ms)
+✔ education fields and supplier service types persist with validation (31.124125ms)
+✔ quote selection and progress require a received quote belonging to the project (70.407041ms)
+✖ completion needs approved milestones and approval never auto-completes a project (21.73ms)
+✔ deleting projects cascades their quotes, milestones and tasks only (43.624583ms)
+✔ rejects invalid values, foreign keys, oversized data and malformed JSON (49.172292ms)
+✔ backup export/import validates the entire graph atomically and preserves IDs (41.617583ms)
+✔ data survives process restart and an imported empty workspace is not reseeded (463.781708ms)
+✔ rejects hostile origins, DNS-rebinding Host headers and static traversal (32.838167ms)
+✔ refuses non-loopback bind settings (173.483542ms)
+✔ infrastructure, support programs, applications, investments and sales CRM CRUD validate and export (80.263ms)
+✖ buyer projection and writes cannot reveal unrelated or internal data (36.583958ms)
+✔ supplier projection hides competitors and customer private fields; writes stay assigned (41.984459ms)
+✔ sales projection and CRM mutations stay within ownership with no investment access (30.765833ms)
+✔ every non-admin role denies private module routes and workspace actions (121.436291ms)
+✔ demo registration creates a local buyer request or candidate supplier, never admin (24.96425ms)
+✔ demo options expose only chooser metadata without unscoped private data (6.4455ms)
+✔ only selected supplier sees project deliverables and can submit; approved deliverables stay locked (57.405875ms)
+✔ dashboard renders counts, demo warnings and role navigation (67.002458ms)
+✔ every admin route renders and all project tabs handle the seed (21.920875ms)
+✔ all create and edit forms render without runtime errors (10.719291ms)
+✔ search and service filters select projects; list and board both render (5.852334ms)
+✔ untrusted text is escaped and unsafe resource links are never active (4.58425ms)
+✔ sales mode hides investment/support/data routes and assignment changes (4.474625ms)
+✔ support notices are separated from budget and institution references (3.66ms)
+✔ buyer portals render every seeded entity and route with scoped requests (59.024625ms)
+✔ supplier portals render every seeded entity and route with scoped requests (26.232583ms)
+✔ buyer request form matches the exact three-field write allowlist (21.245ms)
+✔ buyer review controls appear only for submitted milestones (13.911166ms)
+✔ supplier forms expose own quotes and submissions without approval controls (17.4355ms)
+✔ changing the demo entity requests fresh scoped state (5.733375ms)
+✔ signup offers buyer/supplier only and all three services without passwords (2.5655ms)
+✔ portal renders untrusted request text as escaped content (2.81575ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 32
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1935.532583
+
+✖ failing tests:
+
+test at tests/backend.test.mjs:138:1
+✖ completion needs approved milestones and approval never auto-completes a project (21.73ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  400 !== 200
+  
+      at TestContext.<anonymous> (file:///Users/user01/Desktop/AX_bridge/tests/backend.test.mjs:143:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1102:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:777:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 400,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/backend.test.mjs:271:1
+✖ buyer projection and writes cannot reveal unrelated or internal data (36.583958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  400 !== 200
+  
+      at TestContext.<anonymous> (file:///Users/user01/Desktop/AX_bridge/tests/backend.test.mjs:295:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1102:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:777:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 400,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

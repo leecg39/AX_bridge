@@ -1,0 +1,17 @@
+/* design.md → AX브릿지. 원본 색상·간격 + 한국어 타입 조정. */
+@font-face{font-family:'Pretendard Variable';font-style:normal;font-weight:100 900;font-display:swap;src:url('/assets/PretendardVariable.woff2') format('woff2')}
+:root{
+  --ds-surface:#fff;--ds-soft:#f5f6f6;--ds-section:#fafafa;
+  --ds-text:#1f2022;--ds-secondary:#595c61;--ds-muted:#676d73;
+  --ds-border:#d3d4d5;--ds-input-border:#dddee1;
+  --ds-brand:#009fd9;--ds-link:#0175a3;--ds-brand-soft:#e0f4fe;
+  --ds-action:#07344a;--ds-action-hover:#094d6b;--ds-action-pressed:#052a3a;--ds-on-action:#b3ebff;
+  --ds-success:#256548;--ds-success-soft:#eaf5ee;--ds-danger:#ab2a27;--ds-danger-soft:#fff1f0;
+  --ds-warning:#875416;--ds-warning-soft:#fff6e5;
+  --ds-space-1:4px;--ds-space-2:8px;--ds-space-3:12px;--ds-space-4:16px;--ds-space-5:20px;
+  --ds-space-6:24px;--ds-space-7:32px;--ds-space-8:48px;--ds-space-9:64px;--ds-space-10:96px;
+  --ds-radius-small:8px;--ds-radius-card:16px;--ds-radius-panel:24px;--ds-radius-pill:9999px;
+  --ds-shadow:0 2px 4px rgb(0 0 0 / .08);--ds-wrap:946px;--ds-search:588px;
+  --ds-font:'Pretendard Variable','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+  --ds-motion:200ms;--ds-header:72px;
+}

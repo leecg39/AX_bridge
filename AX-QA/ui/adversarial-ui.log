@@ -1,0 +1,33 @@
+EVIDENCE UI-01 raw <button> emitted in modal; delegated click sent /api/tasks/862c6929-9046-4604-9ac3-6dd2c87d6109 {"done":true}
+✔ REPRO-DEFECT UI-01 stored company/name enters quote modal as HTML and existing action dispatcher mutates data on click (30.535303ms)
+✔ REPRO-DEFECT UI-01b stored milestone title enters review modal without escaping (2.642762ms)
+EVIDENCE UI-02 selected role B but visible project A after out-of-order GET /api/state
+✔ REPRO-DEFECT UI-02 older role response overwrites newer role selection (3.373786ms)
+EVIDENCE UI-03 new-buyer registered, next page GET state targets old-buyer with no warning
+✔ REPRO-DEFECT UI-03 failed signup identity write redirects consultation to OLD buyer entity (4.380937ms)
+EVIDENCE UI-03c admin startup throws before refresh and renders blank app
+EVIDENCE UI-04 two matching POST /api/demo-register after first response loss; server duplicate proof is separate
+✔ REPRO-DEFECT UI-03b failed supplier identity write redirects to OLD supplier (3.970668ms)
+✔ REPRO-DEFECT UI-03c denied sessionStorage read aborts admin before any render/request (1.263909ms)
+✔ REPRO-DEFECT UI-04 lost registration response enables duplicate POST with identical payload and no idempotency key (1.248776ms)
+EVIDENCE UI-05 commit succeeded; refresh error sits in closed dialog; no toast
+✔ REPRO-DEFECT UI-05 committed admin save then failed refresh hides error inside closed modal (3.319914ms)
+✔ SAFE portal ignores late response when buyer entity changes twice (5.882285ms)
+✔ SAFE signup double submission while POST pending is suppressed (1.055765ms)
+✔ SAFE portal required deliverable rejects whitespace before mutation (3.52235ms)
+✔ SAFE admin safeLink blocks active schemes and escapes quotes; approved links isolate opener (1.883174ms)
+✔ SAFE public signup query and consultation project text are escaped (1.78066ms)
+✔ SAFE current fictional KPI examples distinguish relative percent and percentage points (0.888111ms)
+✔ SAFE official seed grant classification separates four applicant notices and three reference documents (1.931688ms)
+EVIDENCE SUPPORT whitespace deliverable reaches admin PATCH unchanged; backend workflow validation is reviewed separately
+✔ REPRO-DEFECT SUPPORT admin required deliverable whitespace reaches API unchanged (2.888122ms)
+EVIDENCE UI-06 persisted 2e12 accepted by API/supplier form; admin edit max is 1e12
+✔ REPRO-DEFECT UI-06 accepted supplier quote above 1e12 renders out-of-range in admin edit form (3.178681ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 156.028701

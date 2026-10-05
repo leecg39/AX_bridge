@@ -1,0 +1,6 @@
+{
+  "observation": "Structured contact redaction is not a free-text anti-circumvention filter",
+  "designatedContactInBuyerResponse": false,
+  "supplierFreeTextContactInBuyerResponse": true,
+  "quotedTermsReviewed": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ax-broker-operations",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-only AX brokerage operations prototype with fictional demonstration data",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "start": "node server.mjs", "test": "node --test tests/*.test.mjs" }
+}

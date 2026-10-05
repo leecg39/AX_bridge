@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/admin.html",
+    "width": 1440,
+    "scroll": 1425,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "오늘의 운영 현황",
+    "hasError": false
+  },
+  {
+    "path": "/buyer.html",
+    "width": 1440,
+    "scroll": 1425,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "가상 모노커머스가상",
+    "hasError": false
+  },
+  {
+    "path": "/supplier.html",
+    "width": 1440,
+    "scroll": 1440,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "르몽",
+    "hasError": false
+  },
+  {
+    "path": "/signup.html",
+    "width": 1440,
+    "scroll": 1425,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "더 나은 전환의첫 연결을 시작하세요",
+    "hasError": false
+  },
+  {
+    "path": "/consultation.html",
+    "width": 1440,
+    "scroll": 1440,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "상담 요청서",
+    "hasError": false
+  },
+  {
+    "path": "/admin.html",
+    "width": 390,
+    "scroll": 375,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "오늘의 운영 현황",
+    "hasError": false
+  },
+  {
+    "path": "/buyer.html",
+    "width": 390,
+    "scroll": 375,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "가상 모노커머스가상",
+    "hasError": false
+  },
+  {
+    "path": "/supplier.html",
+    "width": 390,
+    "scroll": 375,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "르몽",
+    "hasError": false
+  },
+  {
+    "path": "/signup.html",
+    "width": 390,
+    "scroll": 375,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "더 나은 전환의첫 연결을 시작하세요",
+    "hasError": false
+  },
+  {
+    "path": "/consultation.html",
+    "width": 390,
+    "scroll": 390,
+    "color": "rgb(31, 32, 34)",
+    "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", system-ui, sans-serif",
+    "heading": "상담 요청서",
+    "hasError": false
+  }
+]

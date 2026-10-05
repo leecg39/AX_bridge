@@ -1,0 +1,49 @@
+/* 기존 운영 화면의 구조를 유지하면서 새 공통 토큰으로 이행합니다. */
+:root{
+ --ink:var(--ds-text);--muted:var(--ds-muted);--line:var(--ds-input-border);--bg:var(--ds-soft);
+ --green:var(--ds-brand-soft);--green-ink:var(--ds-action);--blue:var(--ds-link);--orange:var(--ds-warning);
+ --shadow:var(--ds-shadow);--radius:var(--ds-radius-card);
+ --portal-accent:var(--ds-on-action);--portal-deep:var(--ds-action);--portal-soft:var(--ds-brand-soft);--portal-border:var(--ds-input-border);
+ font-family:var(--ds-font);color:var(--ds-text);
+}
+body,body[data-portal-role=supplier]{background:var(--ds-soft);--portal-accent:var(--ds-on-action);--portal-deep:var(--ds-action);--portal-soft:var(--ds-brand-soft);--portal-border:var(--ds-input-border)}
+body,button,input,select,textarea{font-family:var(--ds-font)}
+body{line-height:1.6;word-break:keep-all;overflow-wrap:anywhere}
+::selection{background:var(--ds-brand-soft);color:var(--ds-action)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--ds-brand);outline-offset:3px}
+.brand{color:var(--ds-action);letter-spacing:-.8px}.brandmark,.portal-header .brandmark{background:var(--ds-action);color:var(--ds-on-action)}
+.sidebar{border-color:var(--ds-input-border)}.nav a{color:var(--ds-secondary)}.nav a:hover{background:var(--ds-soft)}.nav a.active{background:var(--ds-brand-soft);color:var(--ds-action)}.nav .count{background:white;color:var(--ds-action)}
+.workspace,.eyebrow,.breadcrumb,.top-date{color:var(--ds-muted)}.workspace-card{background:var(--ds-soft);border-color:var(--ds-input-border)}.workspace-card span{color:var(--ds-secondary)}
+.avatar,.company-icon{background:var(--ds-brand-soft);border-color:var(--ds-input-border);color:var(--ds-action)}
+.local-status{background:var(--ds-soft);border-color:var(--ds-input-border);color:var(--ds-secondary)}.local-status i{background:var(--ds-brand)}
+.page-head h1,.portal-page-head h1{font-weight:650;letter-spacing:-.035em}.page-head p,.portal-page-head p{color:var(--ds-secondary);font-size:14px}
+.btn{border-radius:var(--ds-radius-pill);border-color:var(--ds-border);color:var(--ds-text);min-height:44px;transition:background var(--ds-motion);white-space:normal}
+.btn:hover{background:var(--ds-soft);border-color:var(--ds-border)}.btn.primary{background:var(--ds-action);color:var(--ds-on-action);border-color:var(--ds-action)}.btn.primary:hover{background:var(--ds-action-hover)}.btn.primary:active{background:var(--ds-action-pressed)}.btn.soft{background:var(--ds-brand-soft);color:var(--ds-action);border-color:var(--ds-brand-soft)}.btn.danger{background:var(--ds-danger-soft);color:var(--ds-danger)}.btn.small{border-radius:var(--ds-radius-pill)}
+.icon-btn{color:var(--ds-secondary)}.icon-btn:hover{background:var(--ds-brand-soft);color:var(--ds-action)}
+.stat,.pipeline-panel,.panel,.table-wrap,.project-card,.portal-card,.portal-stat,.portal-identity,.portal-quote-card,.portal-milestone,.signup-form-card{border-color:var(--ds-input-border);box-shadow:none;border-radius:var(--ds-radius-card)}
+.stat.top{background:var(--ds-action);border-color:var(--ds-action);color:white}.stat.top .stat-note,.stat.top .stat-title{color:var(--ds-on-action)}
+.stat-title,.stat-note,.section-title p,.row-sub,.todo-sub,.demo-notice{color:var(--ds-muted)}.section-title a,.signup-bottom a{color:var(--ds-link)}
+.stat-number{font-weight:600}.section-title h2{font-weight:650}
+.field input,.field select,.field textarea,.filter,.search,.operator-role,.portal-identity select,.portal-filter select{border-color:var(--ds-input-border);background:white;color:var(--ds-text);border-radius:var(--ds-radius-small)}
+.field label{color:var(--ds-secondary);font-size:13px}.field input,.field select,.field textarea{font-size:14px;min-height:44px}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--ds-brand);box-shadow:0 0 0 1px var(--ds-brand)}
+input[type=checkbox],input[type=radio]{accent-color:var(--ds-action)}
+.badge.completed,.badge.approved{background:var(--ds-success-soft);color:var(--ds-success)}.badge.progress,.badge.submitted{background:var(--ds-brand-soft);color:var(--ds-action)}.badge.quotation,.badge.revision{background:var(--ds-warning-soft);color:var(--ds-warning)}
+.form-error{background:var(--ds-danger-soft);color:var(--ds-danger)}.modal-head p,.modal-note{color:var(--ds-muted)}.modal-head h2{font-weight:650}dialog{border-radius:var(--ds-radius-panel)}
+.portal-role-nav{background:var(--ds-soft);border-radius:var(--ds-radius-pill)}.portal-role-nav a{color:var(--ds-secondary);border-radius:var(--ds-radius-pill)}.portal-role-nav a[aria-current=page]{background:var(--ds-action);color:var(--ds-on-action)}
+.portal-demo-label,.portal-identity p,.portal-identity label,.portal-identity small,.portal-help p,.portal-footer,.portal-stat p,.portal-stat>span,.portal-summary-sub,.portal-fact-label{color:var(--ds-muted)}
+.portal-navigation a{color:var(--ds-secondary);border-radius:var(--ds-radius-small)}.portal-navigation a.active{background:var(--ds-brand-soft);color:var(--ds-action)}.portal-navigation b{background:white;color:var(--ds-action)}
+.portal-help{background:var(--ds-soft);border-color:var(--ds-input-border)}.portal-hero{background:var(--ds-action);border-color:var(--ds-action);color:white;border-radius:var(--ds-radius-card)}.portal-hero h2{color:white;font-weight:650}.portal-hero p,.portal-hero .eyebrow,.portal-hero-count small{color:var(--ds-on-action)}.portal-hero .btn{background:var(--ds-on-action);color:var(--ds-action);border-color:var(--ds-on-action)}
+.portal-card p,.portal-card .notice-small{color:var(--ds-secondary)}.portal-demo-form-notice{background:var(--ds-soft);border-color:var(--ds-input-border);color:var(--ds-secondary)}
+.portal-choice{background:var(--ds-brand-soft);border-color:var(--ds-input-border);color:var(--ds-action)}.portal-choice p{color:var(--ds-secondary)}
+.signup-main{max-width:1080px;gap:64px;padding-top:64px}.signup-intro .eyebrow{color:var(--ds-link)}.signup-intro h1{font-size:40px;font-weight:650;line-height:1.25;letter-spacing:-1.3px;margin:20px 0 24px}.signup-intro>p{color:var(--ds-secondary);font-size:16px;line-height:1.7}
+.signup-promise>svg{color:var(--ds-action);background:var(--ds-brand-soft);border-color:var(--ds-brand-soft)}.signup-promise strong{font-size:15px}.signup-promise span{font-size:13px;color:var(--ds-secondary)}
+.signup-safety{border-color:var(--ds-input-border)}.signup-safety p,.signup-safety svg{color:var(--ds-muted)}.signup-safety p{font-size:12px}.signup-form-card{padding:32px}.signup-form-card>h2{font-size:24px;font-weight:650}.signup-form-card>p{font-size:14px;color:var(--ds-secondary)}
+.signup-role-picker legend,.signup-form-card .field label{font-size:13px;color:var(--ds-secondary)}.signup-role-picker span{background:white;border-color:var(--ds-input-border);font-size:14px}.signup-role-picker small{color:var(--ds-secondary);font-size:11px}.signup-role-picker input:checked+span{border-color:var(--ds-action);background:var(--ds-brand-soft);box-shadow:0 0 0 1px var(--ds-action)}.signup-role-picker input{accent-color:var(--ds-action)}.signup-role-picker input:focus-visible+span{outline:2px solid var(--ds-brand)}
+.signup-context,.signup-bottom,.signup-footer{color:var(--ds-muted);font-size:12px}.signup-form-card .field input,.signup-form-card .field select,.signup-form-card .field textarea{font-size:14px}.signup-submit{min-height:48px;font-size:14px}
+#consultation-app .signup-main{display:block;max-width:780px}#consultation-app .signup-form-card h1{font-size:32px;font-weight:650}#consultation-app .signup-form-card>.brand{padding:0;margin-bottom:24px}#consultation-status{font-size:14px;color:var(--ds-link);margin:20px 0}
+@media(max-width:700px){.signup-main{padding:32px 20px;display:block}.signup-intro h1{font-size:30px;line-height:1.25;letter-spacing:-.8px}.signup-intro>p{font-size:15px}.signup-form-card{padding:24px}.portal-header-inner{flex-wrap:wrap;gap:12px}.portal-role-nav{max-width:100%;overflow-x:auto}.portal-role-nav a{font-size:11px;padding:8px 10px}.portal-demo-label{font-size:11px}.portal-card p{font-size:13px}}
+@media(max-width:481px){.signup-form-card .form-grid{grid-template-columns:1fr}.signup-form-card .field{grid-column:auto}.signup-form-card #signup-service-context{display:none}.btn{min-height:42px}.signup-main{padding-inline:16px}.signup-intro h1{font-size:28px}.signup-form-card{padding:20px}.portal-header-inner{padding-inline:16px}.portal-header .brand{font-size:20px}.portal-role-nav{order:3;width:100%;justify-content:space-between}.portal-layout{padding-inline:16px}.portal-page-head h1{font-size:24px}.portal-page-head p{font-size:13px}.portal-hero h2{font-size:23px}.portal-hero p{font-size:13px}.portal-stat>span,.portal-stat p{font-size:12px}.signup-safety p{font-size:12px}#consultation-app .signup-form-card h1{font-size:26px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+.brandmark,.portal-header .brandmark{background:transparent;color:var(--ds-brand);padding:0;letter-spacing:0;width:30px;height:30px}.brandmark svg{width:30px;height:30px;stroke-width:2.5}
+.role-links a{color:var(--ds-link)}.add-task,.add-row{background:var(--ds-soft);border-color:var(--ds-border);color:var(--ds-secondary)}
